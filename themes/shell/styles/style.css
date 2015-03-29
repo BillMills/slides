@@ -738,12 +738,33 @@ pre.code{
 	padding: 0em 0.5em 0em 0.5em;
 }
 
+.small{
+	font-size: 80%;
+}
+
+.callout{
+	border: 5px solid red;
+	padding: 0.5em;
+	font-size: 150%;
+	line-height: 110%;
+}
+
 p.big, ul.big li{
 	font-size: 200%;
 	line-height:100%
 }
 
 ul.big li{
+	line-height: 110%;
+	margin-bottom: 1em;
+}
+
+p.medium, ul.medium li{
+	font-size: 150%;
+	line-height:100%
+}
+
+ul.medium li{
 	line-height: 110%;
 	margin-bottom: 1em;
 }
